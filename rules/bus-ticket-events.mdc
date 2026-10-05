@@ -1,0 +1,14 @@
+---
+description: Prefer bus_ticket_events for India/global bus transaction analytics
+alwaysApply: true
+---
+
+# Bus transaction data source
+
+When answering questions about bus bookings, tickets, Primo, daily transactions, GMV, seats, or funnel events:
+
+- Always query **`transaction.bus_ticket_events`** (Data Platform / Iceberg via dataplatform MCP).
+- Do **not** use OMS ClickHouse tables like `oms_db.bus_ticket_issued` unless the user explicitly asks for OMS.
+- Default country to **IND** when not specified.
+- For confirmed/issued tickets use `event_type = 101` unless the user asks for another lifecycle state.
+- Prefer `dataplatformCreateQuery` then execute with the generated SQL verbatim.
