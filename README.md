@@ -7,7 +7,7 @@ A skill is a folder with a `SKILL.md`. Cursor reads the `description` in each fi
 ## Quick start
 
 ```bash
-git clone <this-repo-url> redbus-analytics-skills
+git clone https://github.com/shreyanshy-del/redbus-analytics-skills.git redbus-analytics-skills
 cd redbus-analytics-skills
 ./install.sh            # links every skill into ~/.cursor/skills
 ```
@@ -51,6 +51,7 @@ Most skills query data through MCP servers that must already be connected in Cur
 | Skill | Use it for |
 |---|---|
 | [filter-usage-analytics](skills/filter-usage-analytics/SKILL.md) | SRP filter coverage: Sort & Filter, contextual chips, LMB, inline filters |
+| [lmb-india-analytics](https://github.com/shreyanshy-del/lmb-india-analytics) | Last-minute bus funnels, monthly SRP and orders, ticket cuts, and screen time. Kept in its own repo. |
 | [lmb-newbus-analytics](skills/lmb-newbus-analytics/SKILL.md) | Last-minute bus (DBD 0) and New Bus (persuasion 68) click and order share |
 | [seat-bus-images](skills/seat-bus-images/SKILL.md) | Seat-utility image CTR, New Bus image coverage, route txn share |
 | [toilet-cohort-analytics](skills/toilet-cohort-analytics/SKILL.md) | Toilet-on-seat-layout and toilet-amenity cohorts, pre vs post |
