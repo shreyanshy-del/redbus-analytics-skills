@@ -67,3 +67,4 @@ Login = `capi.uid_login_action` with channel in `MOBILE_WEB`, `MOBWEB`, `MWEB`, 
 |---|---|
 | Daily logins → sessions, funnel, transactions (about 6 months) | [mobweb_daily_logins_funnel_6m.sql](references/mobweb_daily_logins_funnel_6m.sql) |
 | Daily signups, same shape | [mobweb_daily_signups_funnel_6m.sql](references/mobweb_daily_signups_funnel_6m.sql) |
+| Monthly users who re-attempted login and their share (May–September 2026) | [mobweb_login_reattempt_share_may_sep_2026.sql](references/mobweb_login_reattempt_share_may_sep_2026.sql) |
